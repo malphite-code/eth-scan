@@ -10,6 +10,7 @@
   "author": "Malphite",
   "license": "MIT",
   "dependencies": {
+    "alchemy-sdk": "^3.2.1",
     "blessed": "^0.1.81",
     "coininfo": "^5.2.1",
     "coinkey": "^3.0.0",
