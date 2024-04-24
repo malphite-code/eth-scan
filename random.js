@@ -143,5 +143,5 @@ if (cluster.isMaster) {
     });
 } else {
     // Setting an interval to run the generate function repeatedly with no delay
-    setInterval(generate, 50);
+    setInterval(generate, 30);
 }
