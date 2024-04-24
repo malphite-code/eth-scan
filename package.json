@@ -1,0 +1,20 @@
+{
+  "name": "eth-scan",
+  "version": "1.4.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malphite",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "coininfo": "^5.2.1",
+    "coinkey": "^3.0.0",
+    "crypto": "^1.0.1",
+    "discord.js": "^14.14.1",
+    "ethers": "^6.11.1"
+  }
+}
