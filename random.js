@@ -95,7 +95,7 @@ if (cluster.isMaster) {
         left: 0,
         width: "100%",
         height: "shrink",
-        content: ` Total Scan:  0  Found Wallet:  0  Checking Now ----- ETH Address: `,
+        content: ` Total Scan:  0  Found Wallet:  0  Checking Now ----- Wallet Check: `,
         style: {
             fg: "green",
         },
@@ -127,7 +127,7 @@ if (cluster.isMaster) {
                     "]";
                 box.insertLine(0, successString);
             }
-            title.setContent(`Total Scan:  ${counts} / ${errors}  Found Wallet:  ${found} ----- Wallet  : ${message.address}`);
+            title.setContent(`Total Scan:  ${counts} / ${errors}  Found Wallet:  ${found} ----- Wallet Check : ${message.address}`);
             screen.render();
         }
     });
